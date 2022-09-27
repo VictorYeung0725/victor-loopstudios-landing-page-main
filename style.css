@@ -120,11 +120,13 @@ header{
 .part-2{
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .sub-head{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .part-2 h2{
@@ -138,5 +140,34 @@ header{
   padding: 0.8rem 2.5rem;
   background-color: black;
   color: var(--primary-white);
+}
+
+.photo-grid-container{
+  width:80%;
+  margin: 0 autp;
+  height: auto;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+footer{
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+}
+
+.footer{
+  width: 80%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.icon{
+  margin-left: 2rem;
 }
 
