@@ -1,0 +1,142 @@
+*{
+ padding: 0%;
+ margin: 0%;
+ box-sizing: border-box;
+}
+
+:root{
+  /* Primary color variable */
+  --primary-white:hsl(0, 0%, 100%);
+  --primary-black:hsl(0, 0%, 0%);
+  --primary-dark-gary:hsl(0, 0%, 55%);
+  --primary-very-dark-gray:hsl(0, 0%, 41%);
+
+  /* font weight */
+  --fw-regular:400;
+  --fw-small:300;
+}
+
+body{
+  font-size: 15px;
+  font-family: 'Alata', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 80vh;
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-container{
+  width: 80%;
+  height: 80vh;
+  /* border: 5px solid orange; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.page-logo{
+  margin-top: 4rem;
+}
+
+.navbar-right{
+  height: 2rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.navbar-right li{
+  list-style: none;
+  padding-left: 1rem;
+  color: var(--primary-white)
+}
+.navbar-right li:hover{
+  cursor: pointer;
+  border-bottom: 2px solid var(--primary-white);
+}
+
+.discription{
+  width: 45%;
+  height: 33%;
+  border: 2px solid var(--primary-white);
+  position: absolute;
+  top: 40%
+}
+
+.discription h1{
+  font-size: 3.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color:var(--primary-white);
+  padding: 1rem 1rem ;
+}
+
+.part-1{
+  width: 80%;
+  height: 65vh;
+  /* border: 5px solid orange; */
+  margin: 150px auto;
+  position: relative;
+  display: flex;
+}
+
+.text{
+  width: 50%;
+  height: 70%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: var(--primary-white);
+  box-sizing: content-box;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.text h3{
+  font-size: 3rem;
+  font-weight: 400;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text p{
+  font-weight: var(--fw-regular);
+  color: var(--primary-dark-gary);
+  padding-top: 2rem;
+  padding-left: 5rem;
+  line-height: 20px;
+}
+
+.part-2{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sub-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.part-2 h2{
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.part-2 a{
+  text-decoration: none;
+  padding: 0.8rem 2.5rem;
+  background-color: black;
+  color: var(--primary-white);
+}
+
